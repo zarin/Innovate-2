@@ -1,0 +1,271 @@
+/* font-family: 'Chivo', sans-serif;
+font-family: 'DM Sans', sans-serif; */
+
+
+/* ============================common css start============================ */
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1210px;
+    margin:0 auto;
+}
+/* ============================common css end============================ */
+
+
+/* ============================navbar start============================ */
+nav{
+    position:absolute !important;
+    width:100%;
+    padding: 32px 0;
+}
+
+.nav-item{
+    margin-right: 50px;
+    position:relative;
+}
+
+.nav-item:hover .nav-link{
+    color:black !important;
+}
+
+.nav-link{
+    display:inline-block;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
+.login_btn{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 200%;
+    color:#FFFFFF;
+}
+
+.register_btn{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#2C2643;
+    padding:20px 48px;
+    background: #43E7DF;
+    border-radius: 6px;
+    margin-left: 36px;
+}
+
+.dropdown{
+    background: #3639A4;
+    position:absolute;
+    top:55px;
+    left:0;
+    border-bottom-right-radius: 20px;
+    padding:25px;
+    opacity:0;
+    visibility:hidden;
+    transition:.4s;
+}
+
+.dropdown ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown li{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#FFFFFF;
+    margin-bottom: 10px;  
+}
+
+.nav-item:hover .dropdown{
+    opacity:1;
+    visibility:visible;  
+}
+/* ============================navbar end============================ */
+
+
+
+
+/* ============================banner start============================ */
+#banner{
+    background: url('../images/banner_bg.png') no-repeat center;
+    background-size: cover;
+    padding-top: 195px;
+    padding-bottom: 558px;
+}
+
+.banner_text{
+    margin:0 auto;
+    /* align-items:center; */
+    text-align: center;
+    
+}
+
+.banner_text h2{
+    margin:0 auto;
+    text-align: center;
+    width:796px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color:#FFFFFF;
+    margin-bottom: 20px; 
+}
+
+.banner_text p{
+    margin:0 auto;
+    text-align: center;
+    width:467px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height:32px;
+    letter-spacing: -0.25%;
+    color:#FFFFFF;
+    margin-bottom: 32px; 
+}
+
+.banner_input input{
+    padding: 20px 24px;
+    width:100%;
+    border:none;
+    outline:none;
+    
+}
+
+.banner_input input::placeholder{
+    font-family: 'Chivo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#B4B6C4;
+}
+
+
+.banner_input{
+    margin:0 auto;
+    text-align: center;
+    width:480px;
+    position:relative;
+}
+
+
+.banner_input a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#2C2643;
+    padding:15px 28px;
+    background: #43E7DF;
+    border-radius: 6px;
+    position:absolute;
+    top:8px;
+    right:8px;
+    
+}
+
+
+.banner_laptop_box{
+    position:relative;
+}
+
+.banner_laptop_img{
+    position:absolute;
+    bottom:-830px;
+    left:50%;
+    transform: translateX(-55%);
+}
+/* ============================banner end============================ */
+
+
+
+
+/* ============================platform start================================= */
+#platform{
+    margin-top: 350px;
+}
+
+
+.title_left h2{
+    font-family: 'Chivo', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -1px;
+    color:#2C2643;
+    width:504px;
+}
+
+.title_right h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color:#645E76;
+    letter-spacing: -0.25%;
+    width:530px;
+}
+
+.item_box{
+    margin-top: 116px;
+    text-align: center;
+    position:relative;
+}
+
+.item_box h2{
+    font-family: 'Chivo', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color:#2C2643;
+    width:303px;
+    margin:0 auto;
+    margin-top: 26px;
+    margin-bottom: 12px;
+    
+}
+
+.item_box p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color:#645E76;
+    width:300px;
+    margin:0 auto;
+}
+
+.platform_line_img1{
+    position:absolute;
+    top: 40px;
+    left: 265px;
+}
+
+.platform_line_img2{
+    position:absolute;
+    top: -5px;
+    left: 265px;
+}
+
+
+/* ============================platform end================================= */
